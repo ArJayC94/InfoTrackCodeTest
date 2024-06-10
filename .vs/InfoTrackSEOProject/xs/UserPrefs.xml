@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{57DF80DF-1E72-4742-AB9C-6A1989ECCDAA}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="InfoTrackSEOProject/Program.cs">
+    <Files>
+      <File FileName="InfoTrackSEOProject/Interfaces/IGoogleSearchService.cs" />
+      <File FileName="InfoTrackSEOProject/Services/GoogleSearchService.cs" />
+      <File FileName="InfoTrackSEOProject/Program.cs" Line="10" Column="1" />
+      <File FileName="InfoTrackSEOProject/Startup.cs" />
+      <File FileName="InfoTrackSEOProject/appsettings.json" />
+      <File FileName="InfoTrackSEOProject/appsettings.Development.json" />
+      <File FileName="InfoTrackSEOProject/Properties/launchSettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InfoTrackSEOProject" expanded="True">
+            <Node name="InfoTrackSEOProject" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.InfoTrackSEOProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
