@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackSEOProject/InfoTrackSEOProject.csproj": {}
+    "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackCodeTest/InfoTrackCodeTest/InfoTrackSEOProject/InfoTrackSEOProject.csproj": {}
   },
   "projects": {
-    "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackSEOProject/InfoTrackSEOProject.csproj": {
+    "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackCodeTest/InfoTrackCodeTest/InfoTrackSEOProject/InfoTrackSEOProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackSEOProject/InfoTrackSEOProject.csproj",
+        "projectUniqueName": "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackCodeTest/InfoTrackCodeTest/InfoTrackSEOProject/InfoTrackSEOProject.csproj",
         "projectName": "InfoTrackSEOProject",
-        "projectPath": "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackSEOProject/InfoTrackSEOProject.csproj",
+        "projectPath": "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackCodeTest/InfoTrackCodeTest/InfoTrackSEOProject/InfoTrackSEOProject.csproj",
         "packagesPath": "/Users/xuezhichen/.nuget/packages/",
-        "outputPath": "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackSEOProject/obj/",
+        "outputPath": "/Users/xuezhichen/Documents/Interview/InfoTrackSEOProject/InfoTrackCodeTest/InfoTrackCodeTest/InfoTrackSEOProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xuezhichen/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,10 @@
             "HtmlAgilityPack": {
               "target": "Package",
               "version": "[1.11.61, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

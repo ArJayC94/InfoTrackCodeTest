@@ -22,6 +22,17 @@ public class Startup
         {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "SEO Checker API", Version = "v1" });
         });
+
+        services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigins",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                               .AllowAnyMethod()
+                               .AllowAnyHeader();
+                    });
+            });
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -30,6 +41,7 @@ public class Startup
         {
             app.UseDeveloperExceptionPage();
         }
+        app.UseCors("AllowAllOrigins");
 
         app.UseSwagger();
         app.UseSwaggerUI(c =>
