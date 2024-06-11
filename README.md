@@ -10,8 +10,11 @@ This project encompasses both frontend and backend development using React for t
 - C# .NET Core
 
 ## Setup Instructions
-1. Navigate to the frontend directory and run `npm install` to install dependencies.
+1. Navigate to the frontend directory the `infotrack-front-ui` folder and run `npm install` to install dependencies.
 2. Start the frontend server using `npm start`.
-3. Navigate to the backend directory.
+3. Navigate to the backend directory the `InfoTrackSEOProject` folder.
 4. Run the backend server with `dotnet run`.
 5. Access the application in your web browser.
+
+## Alert
+When the function returns '0', it means that the response from Google does not contain the URL you are looking for. However, there are instances where Google may return a cookie consent page instead of the actual search results. This can occur due to various reasons, such as regional regulations (e.g., GDPR in Europe), changes in Google's search interface, or detection of automated access."
